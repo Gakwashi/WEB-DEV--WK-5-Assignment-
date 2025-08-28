@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My JS Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome to My JavaScript Practice Page</h1>
+
+  <div>
+    <h2>Input Check</h2>
+    <input id="nameInput" placeholder="Type your name..." />
+    <button onclick="checkName()">Submit</button>
+    <p id="nameOutput"></p>
+  </div>
+
+  <div>
+    <h2>Function</h2>
+    <button onclick="sayHi()">Say Hi</button>
+    <button onclick="getTotal()">Get Total</button>
+    <p id="functionOutput"></p>
+  </div>
+
+  <div>
+    <h2>Loop Practice</h2>
+    <button onclick="showMovies()">Show Movies</button>
+    <ul id="movieList"></ul>
+  </div>
+
+  <div>
+    <h2>Theme Toggle</h2>
+    <button onclick="toggleTheme()">Switch Theme</button>
+    <p id="themeStatus">Light Mode</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
